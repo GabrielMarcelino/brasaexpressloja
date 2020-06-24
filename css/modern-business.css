@@ -1,0 +1,292 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+    
+}
+.navbar{
+        
+}
+.navbar li a {
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+}
+
+.navbar-brand {
+    color: #FFF;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.img-logo{
+    width: 60%;
+    padding: 0;
+    margin-left: 20%; 
+}
+.carousel-item {
+    height: 70vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 10% 70%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/back02.jpg);
+}
+
+.carousel-captionn {
+    margin-top: 15%;
+    width: 60%;
+    margin: 15% 20% 0;
+    text-align: center;
+}
+
+.carousel-captionn h3 {
+    color: #FFF;
+    font-size: 2.7em;
+    text-shadow: 4px 4px 5px #000;
+}
+
+.carousel-captionn p {
+    color: #FFF;
+    border-bottom: 3px solid #FFF;
+    border-top: 3px solid #FFF;
+    width: 40%;
+    margin: 0 30%;
+    font-size: 1.6em;
+    text-shadow: 8px 7px 4px #000;
+}
+
+ul > input {
+    display: none;
+}
+
+input:checked + label {
+    color: #F00;
+    transform: scale(1.1);
+    font-weight: 700;
+}
+
+label img {
+    border-radius: 50%;
+
+}
+
+input:checked + label img {
+    border: 3px solid #F00;
+}
+
+label:hover {
+    transform: scale(1.1);
+    color: #F00 !important;
+}
+main{
+    margin-top: 4%;
+}
+ul.ul-menu {
+    padding-inline-start: 0px;
+}
+
+.ul-menu label img {
+    width: 80%;
+}
+
+.ul-menu label {
+    font-size: 0.7em;
+    transition: all 0.5s;
+
+}
+
+#galeria .item-c {
+    display: none;
+}
+
+#galeria .item-c:first-child {
+    display: block;
+}
+
+.item-c h1 {
+    margin-bottom: 2.5%;
+}
+
+.item-c {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/bg.jpg);
+    background-repeat: repeat;
+    color: #FFF;
+    padding-top: 2%;
+}
+
+.cortes-item-itens {}
+
+.cortes-item-produto {
+    padding: 0;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+.cortes-item-produto-div {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #fff;
+
+    margin-bottom: 10%;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    z-index: 2;
+}
+
+.cortes-item-produto-div:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.cortes-item-produto img {
+
+    margin-bottom: 0 !important;
+}
+
+.cortes-item-produto-item {
+    margin-top: 0 !important;
+    padding: 0 5%;
+    padding-top: 0 !important;
+
+}
+
+.cortes-item-produto-item h6 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.cortes-item-produto-item p {
+    margin-bottom: 1%;
+}
+
+.cortes-item-produto-item img {
+    width: 30%;
+    margin: 0 35%;
+}
+
+.cortes-item-produto-item a {
+    width: 80%;
+    margin: 6% 10% 7%;
+}
+
+.produto-title {
+    height: 45px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 190px;
+}
+
+.developer {
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.developer:hover {
+    text-decoration: underline;
+}
+
+/* RESPONSIVO INÍCIO  */
+@media (max-width: 768px) {
+    .navbar {
+        background-color: #222;
+    }
+    .img-logo{
+    width: 60%;
+    padding: 0;
+    margin-left: 0%; 
+    }
+    .nav-item{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .navbar-toggler {
+        border: 1px solid #FFF;
+    }
+
+    .navbar-toggler-icon {
+        padding: 0;
+    }
+
+    .navbar-toggler-icon i {
+        width: 100%;
+        padding: 0;
+        font-size: 1.5em;
+        font-weight: 300;
+    }
+
+    .carousel-captionn {
+        margin-top: 40%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .carousel-captionn h3 {}
+
+    .carousel-captionn p {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    ul.ul-menu {
+        display: inline-block !important;
+        padding: 0;
+        margin: 0;
+        padding-inline-start: 0%;
+    }
+
+    .ul-menu label img {
+        width: 100%;
+    }
+
+    .ul-menu label {
+        font-size: 0.8em;
+        transition: all 0.5s;
+        width: 24%;
+        min-width: 25%;
+        max-width: 25%;
+        float: left;
+        padding: 7px;
+        height: 125px;
+    }
+    .ul-menu label:nth-of-type(9){
+        margin-left: 25%;
+    }
+    .cortes-item-produto {
+        padding-left: 2%;
+        padding-right: 2%;
+        width: 48%;
+        margin: 0 1% 2%;
+    }
+    input:checked + label img {
+    border: 2px solid #F00;
+    }
+    .produto-title {
+    height: 60px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 190px;
+    }
+    .cortes-item-produto-item a {
+    width: 90%;
+    margin: 6% 5% 7%;
+    font-size: 0.7em;
+    }
+    main{
+    margin-top: 15%;
+    }
+
+}
